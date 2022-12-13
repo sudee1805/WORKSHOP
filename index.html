@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOCUMENT</title>
+    </head>
+    <body>
+        <button onclick="turnOn();">TURN ON</button>
+        <img src="pic_bulboff.jpg" alt="bulbOff" id="bulb" width="10%">
+        <button onclick="turnOff();">TURN OFF</button>
+
+        <script>
+            var bulb= document.getElementById("bulb");
+            function turnOn(){
+                bulb.src="pic_bulbon.jpg";
+
+            }
+            function turnOff(){
+                bulb.src="pic_bulboff.jpg";
+
+            }
+
+        </script>
+    </body>
+    
+</html>
